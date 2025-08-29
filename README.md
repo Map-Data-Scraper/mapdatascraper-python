@@ -26,11 +26,8 @@ client = ApiClient(api_key='SECRET_API_KEY')
 ## Scrape Google Search
 
 ```python
-# Googel Search
+# Google Search
 results = client.google_search('bitcoin')
-
-# Googel Search News
-results = client.google_search_news('election', language='en')
 ```
 
 ## Scrape Google Maps (Places)
