@@ -16,7 +16,7 @@ class ApiClient(object):
     https://github.com/mapdatascraper/mapdatascraper-python
     '''
 
-    _api_url = 'https://api.app.mapdatascraper.com'
+    _api_url = 'https://api.mapdatascraper.com'
     _api_headers = {}
 
     _max_ttl = 60 * 60
