@@ -84,20 +84,6 @@ Scrape Google Maps Photos
    results = client.google_maps_photos(
        'Trump Tower, NY, USA', photosLimit=20, language='en')
 
-Scrape Google Maps Directions
------------------------------
-
-.. code:: python
-
-   results = client.google_maps_directions(['29.696596, 76.994928    30.7159662444353, 76.8053887016268', '29.696596, 76.994928    30.723065, 76.770169'])
-
-Scrape Google Play Reviews
---------------------------
-
-.. code:: python
-
-   results = client.google_play_reviews(
-       'com.facebook.katana', reviews_limit=20, language='en')
 
 Emails And Contacts Scraper
 ---------------------------
